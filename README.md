@@ -4,7 +4,7 @@ Currently i need to display IP camera output to a website .The IP cameras brand 
 
 Python comes to the rescue through its well known web framework Flask and openCV library. Hence i dediced to create a RTSP Relay / streaming proxy server.
 
-Multiple ip cameras streaming need a lot of resource mainly the webserver . we can't use flask built in web server. We use uwsgi server with additional tweak such as the workers connection
+Multiple ip cameras streaming need a lot of resource mainly the webserver . we can't use flask's built in web server. We use uwsgi server with additional tweak such as the workers connection
 
 to embed to the website we can use iframe tag
 
