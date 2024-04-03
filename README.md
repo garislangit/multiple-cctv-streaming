@@ -4,14 +4,19 @@ Relay RSTP  output from IP Camera (Dahua and Hikvision) and displayed to the web
 
 ### Instruction
 1. Install the requirement, first :
+
    `pip -r requirements.txt `
+   
 2. Run the main python script by executing :
 
-  ` python3 ipcamera.py
-`
+   `python3 ipcamera.py `
 
-3. Open the streaming web address 
-      
+
+3. Open the streaming web address i.e
+   
+   http://domain.ip/live2?source=123
+   http://domain.ip/live?source=8
+         
 
 ### Embed to a website 
 
