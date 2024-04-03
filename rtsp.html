@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> RTSP html </title>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+       
+    <script>
+      $(document).ready(function() {
+		
+		$("#rtsp_frame1").load("http://trial.test/rtsp1.html", function(responseTxt, statusTxt, jqXHR){
+        });
+        $("#rtsp_frame2").load("http://trial.test/rtsp2.html", function(responseTxt, statusTxt, jqXHR){
+        });
+       
+      });
+    </script>
+  </head>
+  <body style="text-align:left">
+   
+    <div id="rtsp_frame1"></div>
+    <br />
+    <div id="rtsp_frame2"></div>
+  </body>
+</html>
