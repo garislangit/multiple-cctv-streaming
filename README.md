@@ -11,6 +11,7 @@ Relay RSTP  output from IP Camera (Dahua and Hikvision) and displayed to the web
 
    `python3 ipcamera.py `
 
+   Sorry This Command isn't Avilable Now!!
 
 3. Open the streaming web address i.e
    
