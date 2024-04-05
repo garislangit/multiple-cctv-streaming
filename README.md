@@ -9,10 +9,12 @@ Relay RSTP  output from IP Camera (Dahua and Hikvision) and displayed to the web
    
 2. Run the main python script by executing :
 
-   `python3 ipcamera.py `
+   `python3 ipcamera.py or python ipcamera.py`
+
+   Debian Linux uses python3 instead python
 
 
-3. Open the streaming web address i.e
+4. Open the streaming web address i.e
    
    http://domain.ip/live2?source=123
    http://domain.ip/live?source=8
