@@ -7,7 +7,7 @@ Relay RSTP  output from IP Camera (Dahua and Hikvision) and displayed to the web
 
    `pip -r requirements.txt `
    
-2. Run the main python script by executing (dont forget to modify the rtsp address):
+2. Run the main python script by executing (dont forget to modify the camera url):
 
    `python3 ipcamera.py or python ipcamera.py`
 
